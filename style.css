@@ -1,0 +1,49 @@
+.container{
+    background-color: darkorange;
+    height: 300px;
+/* define um container flex */
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    margin: 10px;
+    color: black;
+    font-size: 32px;
+    /* alinhando os núsmeros */
+    display: flex;
+    /* 'flex-end' alinha a direita */
+    /* aling-items:flex-end alinha os items na base */
+    justify-content: center;
+    align-items: center;
+}
+.item:nth-child(2){
+    flex-shrink: 3;
+}
+.item:nth-child(5){
+    flex-shrink: 1;
+}
+.item:nth-child(3){
+    order: 2;
+    align-self: flex-end;
+}
+.item:nth-child(1){
+    order: 3;
+}
+.item:nth-child(4){
+    order: 4;
+    align-self: flex-start;
+}
+.item:nth-child(6){
+    order: 6;
+}
+
+
+
+
+
