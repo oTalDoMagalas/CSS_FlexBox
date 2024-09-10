@@ -15,7 +15,41 @@
 header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color: cornflowerblue;
+    color: #6495ed;
     padding: 30px;
-    background-color: darkcyan;
+    background-color: #008b8b;
+}
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: #008b8b;
+    color: #6495ed;
+    padding: 15px;
+    text-align: center;
+}
+.products{
+    background-color: white;
+    border: 1px solid #ddd;
+    padding:20px;
+    margin-bottom: 20px;
+/* transformando em container */
+    display: flex;
+/* deixa o texto embaixo da imagem */
+    flex-direction: column;
+    
+}
+.products img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+main#album{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+section.coluna{
+    flex: 1 1 100%;
+    padding: 0px 5px;
 }
