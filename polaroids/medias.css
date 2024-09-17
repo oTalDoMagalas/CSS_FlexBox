@@ -1,0 +1,21 @@
+/* 
+    Devices Breakpoits
+    telas pequenas: 600px
+    celulares: 600px até 768px
+    tablets:769px até 992px
+    notbooks: 993px até 1200px
+    telas: acima de 1200px
+*/
+
+/* tablets*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    section.coluna{
+        flex: 1 1 50%;
+    }
+}
+/* telas */
+@media screen and (min-width: 992px){
+    section.coluna{
+        flex: 1 1 25%;
+    }
+}
